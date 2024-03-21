@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#homebtn button,#nav li{
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+#homebtn button,#nav li{
+    transform: scale(2px);
+    -webkit-transform: scale(2px);
+    -moz-transform: scale(2px);
+    -ms-transform: scale(2px);
+    -o-transform: scale(2px);
+}
