@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/static/CSS/main.css">
-    <title>Mobi Tracker</title>
+    <title>Mobi tracker</title>
 </head>
 <body>
     <header>
-        <div class="w-full bg-gray-200 p-5">
+        <div class="w-full bg-gray-300 p-5">
             <div class="w-10/12 block md:flex m-auto justify-between">
                 <div class="flex">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-blue-900">
@@ -17,21 +17,44 @@
                       </svg>                  
                     <h1 class="text-orange-500 font-semibold text-xl">Mobi Tracker</h1>
                 </div>
+                <div class="hidden md:block">
+                    <ul class="block md:flex text-blue-900" id="nav">
+                        <li class="mr-4 cursor-pointer hover:text-orange-500"><a href="./about.html">About</a></li>
+                        <li class="mr-4 cursor-pointer hover:text-orange-500">How It Works</li>
+                        <li class="mr-4 cursor-pointer hover:text-orange-500">Track Number</li>
+                        <li class="cursor-pointer hover:text-orange-500"><a href="./contact.html">Contacts</a></li>
+                        <li class="cursor-pointer bg-red-600 p-1 text-white rounded-md ml-5"><a href="./index.html">Exit</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
-    <section class="bg-gray-50">
-        <div class="w-full">
-            <div class="w-8/12 m-auto">
-                <p class="text-center text-lg font-semibold pt-10">The ultimate Mobile phone number tracker!</p>
-                <img class="w-6/12 m-auto" src="../static/src/images/e30feca9a263df3da8835a135df97e4c (1).gif"/>
-                <p class="text-center pt-5 pb-10">Get phone number location Today</p>
-                <p id="landCall" class="bg-orange-500 cursor-pointer hover:bg-blue-800 hover:text-white p-2 rounded-full shadow-sm shadow-black w-64 m-auto text-center"><a href="./home.html">Get Started</a></p>
+    <section>
+        <div class=" bg-sky-300 w-full">
+            <div class="w-10/12 bg-sky-300 m-auto pt-14 md:pt-28 pb-28">
+                <div class="block md:flex">
+                    <div class="mr-4">
+                        <span>Hello there...</span>
+                        <h1 class="text-2xl md:text-4xl pb-5 text-orange-500 font-semibold">Welcome to Mobi Tracker!</h1>
+                        <h2 class="text-normal md:text-lg">Have you just received a phone call and
+                         you can't seem to figure out the number's location or service provider?</h2>
+                         <p class="pt-4">
+                            This can be stressfull, but worry no more,<br><em class="text-blue-700">We've got you covered!</em>
+                         </p>
+                         <div class="flex pt-10 md:pt-16 pb-10 md:pb-0" id="homebtn">
+                            <button class="hover:text-white hover:bg-black shadow-sm shadow-black bg-green-600 p-2 rounded-md mr-5">How It Works</button>
+                            <button class="hover:text-white hover:bg-red-600 shadow-sm shadow-black bg-yellow-500 font-semibold p-2 rounded-md">Track Number</button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../static/src/images/222f948574a5da60c0255fb5cbeded62.gif"/>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <footer>
-        <div class="bg-black pt-10 pb-10 mt-20">
+        <div class="bg-black pt-10 pb-10">
             <div class="block md:flex w-10/12 m-auto justify-between">
                 <div class="block">
                    <div class="flex md:block pb-3 md:pb-0">
@@ -42,6 +65,14 @@
                     <h1 class="text-orange-500 font-semibold text-xl">Mobi Tracker</h1>
                    </div>
                    <span class="italic text-blue-500">Your Ultimate mobile phone tracker</span>
+                </div>
+                <div class="pt-5 md:pt-0">
+                    <ul class="block text-green-600" id="nav">
+                        <li class="mr-4 cursor-pointer hover:text-orange-500"><a href="./about.html">About</li>
+                        <li class="mr-4 cursor-pointer hover:text-orange-500">How It Works</li>
+                        <li class="mr-4 cursor-pointer hover:text-orange-500">Track Number</li>
+                        <li class="cursor-pointer hover:text-orange-500"><a href="./contact.html">Contact</a></li>
+                    </ul>
                 </div>
                 <div class="text-white pt-5 md:pt-0">
                   <ul>
