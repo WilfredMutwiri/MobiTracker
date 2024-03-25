@@ -37,8 +37,8 @@
                 <div class="w-60 m-auto">
                     <form method="POST" class="m-auto">
                         <label class="font-semibold text-blue-800 text-center">Enter phone number:</label><br>
-                        <input name="num" class="p-1 rounded-md shadow-sm shadow-black mt-2 w-60" type="text" placeholder="+2547...">
-                        <button type="submit" class="p-2 rounded-md bg-red-600 text-white mt-5 shadow-sm shadow-black">Track Number</button>
+                        <input id="numInput"  name="num" class="p-1 rounded-md shadow-sm shadow-black mt-2 w-60" type="text" placeholder="+254745567568">
+                        <button type="submit" id="submitBtn" class="p-2 rounded-md bg-red-600 text-white mt-5 shadow-sm shadow-black">Track Number</button>
                     </form>
                 </div>
                 <div class="w-60 m-auto bg-gray-100 mt-5 p-4 rounded-md shadow-sm shadow-blue-600">
@@ -99,4 +99,5 @@
         </div>
     </footer>
 </body>
+<script type="text/javascript" src="{{ url_for('static',filename='script/script.js') }}"></script>
 </html>

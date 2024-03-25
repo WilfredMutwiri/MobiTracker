@@ -32,14 +32,16 @@ def contact():
 @app.route('/tracknumber.html',methods=['GET','POST'])
 def tracker_route():
     num = "+254745567568"
+    num2=None
     if request.method =='POST':
         num2=request.form.get('num') 
+        num,num2=num2,num
         print(num2)
     else:
         print("Can't fetch num")
     # initiate num value
     # swap num value with the user input value
-    num,num2=num2,num
+    # 
     print(num2)
     print(num)
     country, Service_provider = track_number(num)
